@@ -1,0 +1,156 @@
+@font-face {
+    font-family: leadgen;
+    src: url(Leadgen.ttf);
+}
+
+*{
+    font-family: leadgen;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 235%;
+    width: 100%;
+}
+
+.backgraund-head{
+    width: 100%;
+    height: 105px;
+    background-color: rgb(50, 50, 63);
+    position: fixed;
+}
+
+.div-button-3{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 65%;
+    top: 33px;
+    padding: right 10px;
+}
+
+.button-3{
+    background-color: rgb(50, 50, 63);
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 21px;
+    padding: 10px;
+}
+
+.button-3:hover{
+    color: #1abc9c;
+    cursor: pointer;
+}
+
+.h-free{
+    color: white;
+    padding: 30px;
+    font-size: 35px;
+    padding-left: 70px ;
+}
+
+.h-free:hover{
+    cursor: pointer;
+}
+
+.background-main{
+    background-color: #1abc9c;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.h1-free{
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    font-size: 85px;
+}
+
+.free{
+    display: flex;
+    justify-content: space-around;
+}
+
+#icon{
+    font-size: 38px;
+    color: whitesmoke;
+}
+    
+.div-portfolio {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(50, 50, 63);
+    font-size: 29px;
+}
+
+#icon-2{
+    font-size: 38px;
+}
+
+.div-img-6{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.img-6{
+    height: 240px;
+    width: 350px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.img-6:hover{
+    opacity: 0.5;
+    background-color: rgb(26, 188, 156);
+}
+
+.div-main-footer{
+    padding: 100px;
+    background-color: #1abc9c;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about{
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+.div2 , .div3{
+    width: 330px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+p{
+    padding: 20px;
+}
+/* .div3{
+    width: 310px;
+} */
+
+.container{
+    display: flex;
+    gap: 40px;
+}
